@@ -80,6 +80,4 @@ Each model’s accuracy score is compared below.
 
 - **Best performing models:** Logistic Regression, Random Forest, and SVM  
 - **Highest accuracy:** 98%  
-- Demonstrates clear separation between red and white wines based on features.
 
-![Model Accuracy Comparison](WhatsApp%20Image%202025-10-23%20at%204.34.39%20PM.jpeg)

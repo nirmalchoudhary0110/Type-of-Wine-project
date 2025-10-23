@@ -1,7 +1,7 @@
 # 🍷 Type of Wine Detection
 
-This project predicts whether a wine is *Red* or *White* based on its physicochemical characteristics.  
-It uses *data cleaning, visualization, and classification techniques* to explore and model the Wine Quality dataset.
+This project predicts whether a wine is **Red** or **White** based on its physicochemical characteristics.  
+It uses **data cleaning, visualization, and classification techniques** to explore and model the Wine Quality dataset.
 
 ---
 
@@ -18,7 +18,7 @@ This notebook focuses on:
 
 ## 🧠 Dataset
 
-The dataset used is *winequalityN.csv*, which includes features like:
+The dataset used is **`winequalityN.csv`**, which includes features like:
 
 | Feature | Description |
 |----------|-------------|
@@ -39,21 +39,21 @@ The dataset used is *winequalityN.csv*, which includes features like:
 
 ## ⚙️ Technologies Used
 
-- *Python 3*
-- *Pandas, **NumPy* – Data handling  
-- *Matplotlib, **Seaborn* – Data visualization  
-- *Scikit-learn* – (For data preprocessing or model building)
-- *Jupyter Notebook* – Development environment
+- **Python 3**
+- **Pandas**, **NumPy** – Data handling  
+- **Matplotlib**, **Seaborn** – Data visualization  
+- **Scikit-learn** – Model training and evaluation  
+- **Jupyter Notebook** – Development environment
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
 The following analyses were performed:
-- *Boxplots* for outlier detection  
-- *Scatter plots* for feature relationships  
-- *Heatmap* for feature correlation  
-- *IQR method* to identify outliers  
+- **Boxplots** for outlier detection  
+- **Scatter plots** for feature relationships  
+- **Heatmap** for feature correlation  
+- **IQR method** to identify outliers  
 
 Key insights:
 - Alcohol and sulphates show strong correlation with wine type  
@@ -64,14 +64,22 @@ Key insights:
 
 ## 🧩 Model Training
 
-(Include this if your notebook includes model training)  
-A classification model such as *Decision Tree* or *Logistic Regression* can be trained to predict the wine type.  
-Evaluation metrics like *accuracy, **confusion matrix, and **classification report* can be used to measure performance.
+Multiple classification algorithms were applied, including:
+- Logistic Regression  
+- Decision Tree (before and after parameter tuning)  
+- Random Forest  
+- Naive Bayes  
+- Support Vector Machine (SVM)  
+- K-Nearest Neighbors (KNN)
+
+Each model’s accuracy score is compared below.
 
 ---
 
 ## 📈 Results
 
-- Dataset cleaned and visualized successfully  
-- Clear separation observed between red and white wines based on key chemical properties  
-- Model accuracy: 
+- **Best performing models:** Logistic Regression, Random Forest, and SVM  
+- **Highest accuracy:** 98%  
+- Demonstrates clear separation between red and white wines based on features.
+
+![Model Accuracy Comparison](WhatsApp%20Image%202025-10-23%20at%204.34.39%20PM.jpeg)
